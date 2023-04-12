@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(38, 38, 38);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: white;
+    margin-left: 300px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+    margin-right: 200px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    border: solid gray;
+    background-color: rgb(107, 191, 191);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+    margin-left: 100px;
+}
+
+/*.container{
+    width: 980px;
+    height: 980px;
+    margin: 0 auto;
+
+}
+
+.row{
+    display: flex;
+}
+
+.usercard{
+    border: solid lightgrey;
+    margin-top: 20px;
+    height: 250px;
+}
+.userheader{
+    width: 350px;
+    height: 80px;
+    background-color: rgb(107,191,191);
+}
+
+.proimg{
+    height: 50px;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+h2{
+    margin-top: 25px;
+}
+
+.marker{
+    height: 20px;
+}
+
+.cardtext, p{
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.gear{
+    height: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.education{
+    height: 105px;
+    width: 350px;
+    border: solid lightgray;
+    margin-top: 20px;
+}
+
+.eduheader{
+    background-color: rgb(38,38,38);
+    color: whitesmoke;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+h4{
+    padding-left: 9px;
+}
+
+columnleft{
+    display: flex;
+}
+.connectionreq{
+    height: 200px;
+    width: 200px;
+    border: lightgray solid;
+    margin-top: 20px;
+}
+
+
+.yourconnections{
+    height: 400px;
+    width: 200px;
+    border: lightgray solid;
+    margin-top: 20px;
+}
+
+.conreqheader{
+    background-color: rgb(38,38,38);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+span{
+    border-radius: 30px;
+    background-color: lightslategray;
+    color: whitesmoke;
+    font-size: 14pt;
+
+.req{
+    display: flex;
+}
+
+.reqleft, reqright{
+    display: flex;
+}
+.conpic{
+    border-radius: 50%;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.yourconnheader{
+    background-color: rgb(38,38,38);
+    height: 50px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+}
