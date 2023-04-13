@@ -45,57 +45,59 @@ body {
     margin-left: 100px;
 }
 
-.container{
+.container {
     height: 980px;
     width: 980px;
     margin: 0 auto;
-    border: solid red;
-    
-
 }
-.row{
+
+.row {
     display: flex;
 }
 
-.usercard{
+.usercard {
     border: solid lightgrey;
     margin-top: 20px;
     height: 250px;
     width: 350px;
     margin-left: 150px;
 }
-.userheader{
+
+.userheader {
     width: 350px;
     height: 80px;
-    background-color: rgb(107,191,191);
+    background-color: rgb(107, 191, 191);
 }
 
-.proimg{
+.proimg {
     height: 50px;
+    width: 50px;
     padding-top: 55px;
     padding-left: 15px;
 }
-h2{
+
+h2 {
     margin-top: 25px;
 }
 
-.marker{
+.marker {
     height: 15px;
     margin-left: 5px;
 }
 
-.cardtext, p{
+.cardtext,
+p {
     padding-top: 5px;
     margin-left: 10px;
 }
 
-.gear{
+.gear {
     height: 15px;
     padding-top: 8px;
     padding-left: 5px;
 }
 
-.education{
+.education {
     height: 115px;
     width: 350px;
     border: solid lightgray;
@@ -103,74 +105,99 @@ h2{
     margin-left: 150px;
 }
 
-.eduheader{
-    background-color: rgb(38,38,38);
+.eduheader {
+    background-color: rgb(38, 38, 38);
     color: whitesmoke;
     height: 30px;
     padding-left: 20px;
     padding-top: 5px;
 }
 
-.graddate{
+.graddate {
     color: slategray;
-    
 }
-h4{
+
+h4 {
     padding-left: 9px;
     margin-top: 10px;
 }
 
-columnright{
+columnright {
     display: flex;
 }
-.connectionreq{
-    height: 200px;
+
+.connectionreq {
+    height: 175px;
     width: 200px;
     border: lightgray solid;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
-
-.yourconnections{
-    height: 400px;
-    width: 200px;
-    border: lightgray solid;
-    margin-top: 20px;
-}
-
-.conreqheader{
-    background-color: rgb(38,38,38);
-    height: 50px;
+.conreqheader {
+    background-color: rgb(38, 38, 38);
+    height: 40px;
     width: 200px;
     text-align: center;
     color: whitesmoke;
     padding-top: 15px;
 }
 
-span{
-    border-radius: 30px;
+span {
+    border-radius: 50%;
     background-color: lightslategray;
     color: whitesmoke;
-    font-size: 14pt;
-
-.req{
-    display: flex;
+    height: 20px;
+    width: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
-.reqleft, reqright{
+.Todd {
     display: flex;
+    margin-top: 8px;
+    align-items: center;
 }
-.conpic{
+
+.profilepic {
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    height: 30px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
+.acceptdecline {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
 
-.yourconnheader{
-    background-color: rgb(38,38,38);
-    height: 50px;
-    color: whitesmoke;
-    text-align: center;
-    padding-top: 20px;
+.phil {
+    display: flex;
+    align-items: center;
+}
+
+.yourconnectionsreq {
+    height: 310px;
+    width: 200px;
+    border: lightgray solid;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.adriendd,
+.annej,
+.alyne,
+.arry {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
